@@ -1,48 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-/*----------------------*/
 
 
-.navbar-brand
-{
-  font-size: 2rem;
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #222;
 }
-
-.navbar-custom {
-  background-color: #293241;
+.navbar {
+  padding: .8rem;
+  color:rgb(93, 185, 154);
 }
-/* change the brand and text color */
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
   color:#ffffff;
 }
-/* change the link color */
-.navbar-custom .navbar-nav .nav-link {
-  color: #ffffff;
-}
-/* change the color of active or hovered links */
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-  color: #ffffff;
-}
-
-body {
-    background-color:#ffffff;
-  }
-  h1 {
-    color: red;
-  }
-  p {
-    color: red;
-  }
-
-
-
-/*----------------------*/
-
-
-
-
 
 
 /*---Media Queries --*/
